@@ -496,13 +496,13 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify between 1 and HOTENDS values per array.
     // If fewer than EXTRUDER values are provided, the last element will be repeated.
-    #define DEFAULT_Kp_LIST {  12.00,  12.00 }
-    #define DEFAULT_Ki_LIST {   0.20,   0.20 }
-    #define DEFAULT_Kd_LIST { 110.00, 110.00 }
+    #define DEFAULT_Kp_LIST {  11.00,  11.00 }
+    #define DEFAULT_Ki_LIST {   0.40,   0.40 }
+    #define DEFAULT_Kd_LIST {  70.00,  70.00 }
   #else
-    #define DEFAULT_Kp  12.00
-    #define DEFAULT_Ki   0.20
-    #define DEFAULT_Kd 110.00
+    #define DEFAULT_Kp 11.00
+    #define DEFAULT_Ki  0.40
+    #define DEFAULT_Kd 70.00
   #endif
 #endif // PIDTEMP
 
@@ -523,7 +523,7 @@
  * heater. If your configuration is significantly different than this and you don't understand
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  */
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
