@@ -275,6 +275,8 @@
   #include "mega/pins_PICAOLD.h"                // ATmega2560                             env:mega2560
 #elif MB(INTAMSYS40)
   #include "mega/pins_INTAMSYS40.h"             // ATmega2560                             env:mega2560
+#elif MB(LEAPFROG_CREATR_HS)
+  #include "mega/pins_LEAPFROG_CREATR_HS.h"      // ATmega2560                             env:mega2560
 
 //
 // ATmega1281, ATmega2561

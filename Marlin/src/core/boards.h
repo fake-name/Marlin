@@ -137,7 +137,7 @@
 #define BOARD_MEGATRONICS_31          1309  // Megatronics v3.1
 #define BOARD_MEGATRONICS_32          1310  // Megatronics v3.2
 #define BOARD_ELEFU_3                 1311  // Elefu Ra Board (v3)
-#define BOARD_LEAPFROG                1312  // Leapfrog
+#define BOARD_LEAPFROG                1312  // Leapfrog (Creatr non-HS?)
 #define BOARD_MEGACONTROLLER          1313  // Mega controller
 #define BOARD_GT2560_REV_A            1314  // Geeetech GT2560 Rev. A
 #define BOARD_GT2560_REV_A_PLUS       1315  // Geeetech GT2560 Rev. A+ (with auto level probe)
@@ -150,6 +150,7 @@
 #define BOARD_PICA_REVB               1322  // PICA Shield (original version)
 #define BOARD_PICA                    1323  // PICA Shield (rev C or later)
 #define BOARD_INTAMSYS40              1324  // Intamsys 4.0 (Funmat HT)
+#define BOARD_LEAPFROG_CREATR_HS      1325  // Leapfrog Creatr HS
 
 //
 // ATmega1281, ATmega2561

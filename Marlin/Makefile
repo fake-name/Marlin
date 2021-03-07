@@ -371,6 +371,9 @@ else ifeq ($(HARDWARE_MOTHERBOARD),1319)
 # Wanhao 0ne+ i3 Mini
 else ifeq ($(HARDWARE_MOTHERBOARD),1320)
 
+# Leapfrog Creatr HS
+else ifeq ($(HARDWARE_MOTHERBOARD),1325)
+
 #
 # ATmega1281, ATmega2561
 #
