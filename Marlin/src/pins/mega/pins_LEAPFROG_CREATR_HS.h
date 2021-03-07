@@ -89,7 +89,7 @@
 //
 // Use one of the unused heater outputs (there are 6 heater fets!) to
 // toggle the LEDs.
-#define LED_PIN                               7
+#define CASE_LIGHT_PIN                         7
 
 #define SDSS                                  11
 #define SOL1_PIN                              16
